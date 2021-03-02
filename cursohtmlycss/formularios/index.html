@@ -7,7 +7,21 @@
     <title>Formularios</title>
 </head>
 <body>
-    <form action="">
+    <main>
+        <form action="">
+            <input list="tus datos" placeholder="preferencia sexual" name="gusto" autocomplete="sex" required>
+                <datalist id="tus datos">
+                    <label for="tus datos">qué te gusta?</label>
+                    <option value="gay">gay</option>
+                    <option value="homo">homosexuales</option>
+                    <option value="trans">transexuales</option>
+                </datalist>
+            </input>
+            <input type="datetime-local" name="ultimavez" required>
+            <input type="submit">
+        </form>
+    </main>
+    <!-- <form action="">
         
         <label for="edad">
             <span>¿qué edad tienes?</span>
@@ -24,6 +38,6 @@
             <input type="text" id="sexo" placeholder="tu sexo" >
         </label>
 
-    </form>    
+    </form>     -->
 </body>
 </html>
