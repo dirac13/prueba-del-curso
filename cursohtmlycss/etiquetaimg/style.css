@@ -1,0 +1,8 @@
+.texto:hover{
+color: aquamarine;
+}
+.texto{
+color: blueviolet;
+background-color: rgba(18, 109, 194, 0.699);
+border-radius: 10 px;
+}
